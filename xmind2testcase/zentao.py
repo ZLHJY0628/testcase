@@ -77,6 +77,15 @@ def gen_case_step_and_expected_result(steps):
 
     return case_step, case_expected_result
 
+# # 禅道15.3版本
+# def gen_case_priority(priority):
+#     mapping = {1: '高', 2: '中', 3: '低'}
+#     if priority in mapping.keys():
+#         # return mapping[priority]
+#         return 'P' + str(priority-1)
+#     else:
+#         # return '中'
+#         return 'P1'
 
 def gen_case_priority(priority):
     mapping = {1: '高', 2: '中', 3: '低'}
